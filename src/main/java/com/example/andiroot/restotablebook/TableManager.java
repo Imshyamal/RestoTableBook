@@ -27,7 +27,7 @@ public class TableManager extends AppCompatActivity {
         findViewById(R.id.relMainContainer).setOnDragListener(new MyDragListener());
 
 */
-           final int width,height;
+        final int width,height;
         if(Build.VERSION.SDK_INT >= 13){
             android.graphics.Point p = new android.graphics.Point();
             this.getWindowManager().getDefaultDisplay().getSize(p);
@@ -46,7 +46,7 @@ public class TableManager extends AppCompatActivity {
         rel.setBackgroundResource(R.drawable.shape);
 
         for(final ImageView imageView : Globals.tablesAndChairs){
-           layoutParams =(RelativeLayout.LayoutParams)imageView.getLayoutParams();
+            layoutParams =(RelativeLayout.LayoutParams)imageView.getLayoutParams();
             // To do convert oixels to dp
             layoutParams.leftMargin = 20;
             layoutParams.topMargin = 20;
