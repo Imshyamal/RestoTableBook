@@ -4,6 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -11,24 +12,38 @@
     tools:context="com.example.andiroot.restotablebook.MainActivity">
 
 
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/add_table"
-        android:id="@+id/btnAddTable"
-        />
+        android:orientation="horizontal">
 
-     <Button
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:id="@+id/btnChair"
-         android:text="@string/add_chair"/>
+        <Button
+            android:id="@+id/btnChair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_chair" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnMainScreen"
-       android:text="@string/main_screen" />
+        <Button
+            android:id="@+id/btnAddTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_table" />
+
+        <Button
+            android:id="@+id/btnMainScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_screen" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </RelativeLayout>
 
 
 

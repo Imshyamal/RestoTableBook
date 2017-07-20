@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">RestoTableBook</string>
     <string name="add_table">Add Table</string>
-    <string name="main_screen">Main Screen</string>
+    <string name="main_screen">Reset</string>
     <string name="add_chair">Add Chair</string>
     <string name="table_added">Table added</string>
     <string name="child_added">Chair added</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
